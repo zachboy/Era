@@ -39,12 +39,12 @@ android {
     ndkVersion = libs.versions.ndk.get()
 
     defaultConfig {
-        applicationId = "io.github.mangi.eta"
+        applicationId = "io.github.eta.era"
         minSdk = 34
         targetSdk = 37
         // versionCode 规则：yyyyMMdd + 两位当日序号（01 起），发版时随 versionName 一起手动递增。
-        versionCode = 2026111302
-        versionName = "3.4.4"
+        versionCode = 2026112401
+        versionName = "3.4.4-era.1"
 
         ndk {
             // 同时过滤本地与依赖 AAR 的原生库，确保 APK 仅包含 ARM64。
